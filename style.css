@@ -237,6 +237,7 @@ section { padding: 4.5rem 0; }
 .two { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
 .hp { position: absolute; left: -9999px; }
 .form-note { color: var(--mute); font-size: 0.92rem; }
+.form-done[hidden] { display: none; }
 .form-done { background: var(--navy-lift); border: 1px solid var(--navy-line); padding: 1.25rem; display: grid; gap: 0.5rem; }
 .form-done h3 { color: var(--yellow); }
 @media (max-width: 860px) { .waitlist .wrap { grid-template-columns: 1fr; } .two { grid-template-columns: 1fr; } }
