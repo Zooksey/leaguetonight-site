@@ -1,4 +1,6 @@
-# leaguetonight.com
+# leaguetonight.com (static stopgap)
+
+**Superseded 2026-09-05 by the Next.js app in `Zooksey/leaguetonight`, which serves leaguetonight.com from Vercel and stores the waitlist in our own database.** This repo stays as the design reference (the app's `globals.css` and copy were ported from here) and as a fallback at https://zooksey.github.io/leaguetonight-site/.
 
 Static waitlist site for League Tonight, hosted on GitHub Pages. No build step: edit the HTML and push to `main`.
 
